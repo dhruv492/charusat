@@ -1,0 +1,46 @@
+/* Events Page */
+.events {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.events h2 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 2rem;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.event-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.event-card h3 {
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+.event-card p {
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .event-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

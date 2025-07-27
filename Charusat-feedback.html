@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback - CHARUSAT Portal</title>
+  <link rel="stylesheet" href="Charusat-feedback.css" />
+</head>
+<body>
+
+
+  <main>
+    <section class="form-section">
+      <h2>Submit Your Feedback</h2>
+      <form class="form" action="#" method="POST">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject of feedback" required />
+
+        <label for="feedback">Feedback</label>
+        <textarea id="feedback" name="feedback" rows="5" placeholder="Write your feedback here..." required></textarea>
+
+        <label for="rating">Rating</label>
+        <select id="rating" name="rating" required>
+          <option value="">Select a rating</option>
+          <option value="Excellent">Excellent</option>
+          <option value="Good">Good</option>
+          <option value="Average">Average</option>
+          <option value="Poor">Poor</option>
+        </select>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CHARUSAT University. All rights reserved.</p>
+  </footer>
+</body>
+</html>
